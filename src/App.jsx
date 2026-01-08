@@ -1,12 +1,17 @@
 
 import './App.css'
+import DaisyNav from './DaisyNav'
+import NavBar from './NavBar'
 
 function App() {
   
   return (
     <>
       
-      <header><h1 className='text-amber-900  underline  text-7xl text-center'>Vite + React</h1></header>
+      <header>
+        <NavBar></NavBar>
+        <DaisyNav></DaisyNav>
+      </header>
       
   
 
