@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const NavigationData = [
   {
     id: 1,
@@ -47,6 +48,10 @@ const NavigationData = [
 const NavBar = () => {
   return (
     <nav> 
+        
+           
+            
+        
 
         <ul className='flex'>
            
